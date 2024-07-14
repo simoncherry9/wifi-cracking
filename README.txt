@@ -29,7 +29,7 @@ Funcionalidades:
 Uso:
 ----
 1. Clona este repositorio en tu máquina local
-$ git clone https://github.com/simoncherry9/
+$ git clone https://github.com/simoncherry9/wifi-cracking
 
 2. Navega hasta el directorio del proyecto:
 $ cd wifi-cracking
