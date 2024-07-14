@@ -11,9 +11,21 @@ init(autoreset=True)
 def verificar_dependencias():
     """Verifica si las dependencias necesarias están instaladas."""
     dependencies = ['airodump-ng', 'aireplay-ng', 'aircrack-ng']
+    faltantes = []
+
     for dependency in dependencies:
         if subprocess.run(f"which {dependency}", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).returncode != 0:
             print(f"{Fore.RED}No se encontró '{dependency}'. Asegúrate de tener instalada la suite aircrack-ng.{Style.RESET_ALL}")
+            faltantes.append(dependency)
+
+    if faltantes:
+        print(f"{Fore.YELLOW}Instalando aircrack-ng...{Style.RESET_ALL}")
+        try:
+            subprocess.run("sudo apt install -y aircrack-ng", shell=True, check=True)
+            print(f"{Fore.GREEN}aircrack-ng instalado correctamente.{Style.RESET_ALL}")
+            return True
+        except subprocess.CalledProcessError:
+            print(f"{Fore.RED}Error al instalar aircrack-ng. Por favor, instala manualmente.{Style.RESET_ALL}")
             return False
     return True
 
