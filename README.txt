@@ -1,8 +1,8 @@
 ==============================================================
-          Herramienta de Seguridad Wi-Fi - Documentación
+          Wifi-Cracking - Documentación
 ==============================================================
 
-Este repositorio contiene una herramienta de seguridad Wi-Fi diseñada para realizar diversas acciones relacionadas con pruebas de penetraciòn en redes inalámbricas utilizando herramientas populares como `airodump-ng`, `aireplay-ng` y `aircrack-ng`.
+Este repositorio contiene una Wifi-Cracking esta diseñada para realizar diversas acciones relacionadas con pruebas de penetraciòn en redes inalámbricas utilizando herramientas populares como `airodump-ng`, `aireplay-ng` y `aircrack-ng`.
 
 Requisitos:
 -----------
@@ -29,6 +29,7 @@ Funcionalidades:
 Uso:
 ----
 1. Clona este repositorio en tu máquina local
+$ git clone https://github.com/simoncherry9/
 
 2. Navega hasta el directorio del proyecto:
 $ cd wifi-cracking
@@ -51,3 +52,7 @@ Este proyecto fue desarrollado por Saimonch16(https://github.com/simoncherry9).
 Licencia:
 ---------
 Este proyecto está bajo la licencia MIT - ver el archivo LICENSE para más detalles.
+
+Advertencia:
+------
+No me hago responsable por el mal uso que se pueda darle a la herramienta. La misma, fue desarrollada con fines eticos.
