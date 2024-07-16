@@ -82,6 +82,7 @@ def establecer_modo_monitor():
     interface = input(f"{Fore.YELLOW}Introduce la interfaz de red para establecer en modo monitor (por ejemplo, wlan0): {Style.RESET_ALL}")
     if interface.strip():  
         comando = f"airmon-ng start {interface}"
+        comando = f"sudo airmon-ng check kill"
         ejecutar_comando(comando)
         return interface  
 
