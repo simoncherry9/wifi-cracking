@@ -2,7 +2,7 @@
           Wifi-Cracking - Documentación
 ==============================================================
 
-Este repositorio contiene una Wifi-Cracking esta diseñada para realizar diversas acciones relacionadas con pruebas de penetraciòn en redes inalámbricas utilizando herramientas populares como `airodump-ng`, `aireplay-ng` y `aircrack-ng`.
+Este repositorio contiene una herramienta llamada Wifi-Cracking. La misma, esta diseñada para realizar diversas acciones relacionadas con pruebas de penetraciòn en redes inalámbricas utilizando herramientas populares como `airodump-ng`, `aireplay-ng` y `aircrack-ng`.
 
 Requisitos:
 -----------
