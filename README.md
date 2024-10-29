@@ -52,17 +52,17 @@ Para usar esta herramienta, asegúrate de tener instaladas las siguientes depend
 
 ---
 
-🤝 Contribuciones
+## 🤝 Contribuciones
 ¡Las contribuciones son bienvenidas! Si deseas mejorar este proyecto, haz un fork y envía un pull request. Asegúrate de incluir pruebas para cualquier cambio importante.
 
 ---
 
-👤 Autor
+## 👤 Autor
 Este proyecto fue desarrollado por Saimonch16.
 
 ---
 
-📄 Licencia
+## 📄 Licencia
 Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
 
 ---
