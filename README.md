@@ -66,5 +66,5 @@ Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más 
 
 ---
 
-⚠️ Advertencia
+## ⚠️ Advertencia
 La herramienta fue desarrollada con fines educativos y de auditoría ética. No me hago responsable por el mal uso que se le pueda dar. Utilízala solo en redes en las que tengas permiso para realizar pruebas de penetración.
