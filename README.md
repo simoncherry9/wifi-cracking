@@ -1,5 +1,4 @@
-# 🚀 Wifi-Cracking - Documentación
-
+# 🚀 Wifi-Cracking 
 ![Captura de pantalla 2024-07-14 142044](https://github.com/user-attachments/assets/665fbe96-112d-499c-b97b-4d506484b00e)
 
 **Wifi-Cracking** es una herramienta para realizar pruebas de penetración en redes inalámbricas, utilizando herramientas de la suite `aircrack-ng` como `airodump-ng`, `aireplay-ng` y `aircrack-ng`. Esta herramienta está diseñada para facilitar la auditoría de redes Wi-Fi mediante varias funcionalidades automatizadas.
